@@ -7,20 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <!-- Pengatur body / meta data dari body/tampilan web -->
-
+    <!-- CSS Internal - di gunakan untuk mengatur tampilan dari element html -->
     <style>
-        .warnaBiruMuda {
-            color: rgb(45, 214, 252);
-        }
-
-        .warnaHitam {
-            color: black;
-        }
-
-        .foto {
-            height: 190px;
-
+        .ukuranFoto {
+            width: 100px;
         }
     </style>
 
@@ -28,145 +18,169 @@
 
 <body>
 
-    <!-- ctrl + /  -->
+    <!-- Heading Sebagai Judul-->
+    <h1>Belajar Elemen HTML Dasar</h1>
 
-    <!-- Paragraf HTML -->
-    <p class="warnaBiruMuda">Belajar Tidur</p>
-
-    <!-- Heading / Judul utama -->
-    <h1>Judul Paragraf h1</h1>
-    <h2>Judul Paragraf h2</h2>
-    <h3>Judul Paragraf h3</h3>
-    <h4>Judul Paragraf h4</h4>
-    <h5>Judul Paragraf h5</h5>
-    <h6>Judul Paragraf h6</h6>
-
-    <!-- Line Break / Membuat jeda pada element html -->
+    <!-- Line Break -->
     <br>
 
-    <!-- Membuat Link Pada HTML -->
-    <a href="https://github.com/R1N-NY44">Profile Github saya</a>
+    <h3>1). Paragraf HTML</p>
+    </h3>
+
+    <!-- Paragraf -->
+    <p>Pak udin makan ayam</p>
+    <p><b>Pak udin makan ayam</b></p>
+    <p><strong>Pak udin makan ayam</strong></p>
+    <p><i>Pak udin makan ayam</i></p>
+    <p><em>Pak udin makan ayam</em></p>
+    <p><mark>Pak udin makan ayam</mark></p>
+    <p><small>Pak udin makan ayam</small></p>
+    <p><del>Pak udin makan ayam</del></p>
+    <p><ins>Pak udin makan ayam</ins></p>
+    <p><sub>Pak udin</sub> <sup>makan ayam</sup></p>
 
     <br>
+
+    <!-- Heading -->
+    <h3>2). Heading HTML</h3>
+    <h1>Paragraf H1</h1>
+    <h2>Paragraf H2</h2>
+    <h3>Paragraf H3</h3>
+    <h4>Paragraf H4</h4>
+    <h5>Paragraf H5</h5>
+    <h6>Paragraf H6</h6>
+
     <br>
 
+    <h3>3). Link HTML</h3>
+    <a href="https://github.com/R1N-NY44">
+        <p>Profile Github Saya</p>
+    </a>
     <a href="https://github.com/R1N-NY44" target="_blank">
-        <h1 class="warnaHitam">Visit My Github Profile</h1>
+        <p>Profile Github Saya Di Tab baru</p>
     </a>
 
-    <!-- HTML Image -->
-    <img class="foto"
-        src="https://th.bing.com/th/id/R.606ff692b6e7ad46dec155fc390d2c99?rik=3b4NTz0R5KLFfw&riu=http%3a%2f%2fasset-a.grid.id%2fcrop%2f0x0%3a0x0%2fx%2fphoto%2f2018%2f06%2f09%2f1587625639.jpg&ehk=9cANtXJiShh%2bEhQ%2foNppBJF3YYioC4Fp5yCAayxMkXk%3d&risl=&pid=ImgRaw&r=0"
-        alt="Gambar kucing">
+    <br>
 
-    <!-- html tabel -->
+    <h3>4). Image</h3>
+    <img class="ukuranFoto" src="Profile.png" alt="Foto Profile">
 
+    <br><br>
+
+    <h3>5). Table</h3>
+    <p>Tabel Normal</p>
     <table border="1">
 
-        <!-- Baris itu ke samping sedangkan kolom itu ke bawah -->
+        <!-- Baris itu menyamping! -->
+        <!-- Kolom Ke bawah -->
 
-        <!-- kolom -->
-        <tr><!--kolom 1-->
-            <!-- baris 1-->
-            <th>1.</th>
-            <th>Ini adalah baris 1</th>
+        <!-- Kolom 1 -->
+        <tr>
+            <!-- Baris 1 -->
+            <th>1). </th>
+            <!-- Baris 2 -->
+            <td>Kolom 1, Baris 2</td>
         </tr>
 
-        <tr><!--kolom 2-->
-            <!-- baris 2-->
-            <th>2.</th>
-            <th>Ini adalah baris 2</th>
+        <!-- Kolom 2 -->
+        <tr>
+            <!-- Baris 1 -->
+            <th>2). </th>
+            <!-- Baris 2 -->
+            <td>Kolom 2, Baris 2</td>
         </tr>
 
+        <!-- Kolom 3 -->
+        <tr>
+            <!-- Baris 1 -->
+            <th>3). </th>
+            <!-- Baris 2 -->
+            <td>Kolom 3, Baris 2</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <p>Penggunaan Colspan</p>
+    <table border="1">
+        <tr>
+            <th colspan="3">Warteg Bahari</th>
+        </tr>
+        <tr>
+            <th colspan="2">Menu Makanan</th>
+            <th>Harga</th>
+        </tr>
+        <tr>
+            <th>1). </th>
+            <th>Nasi</th>
+            <td>Rp. 3.000</td>
+        </tr>
+        <tr>
+            <th>2). </th>
+            <th>Aqua Saset</th>
+            <td>Rp. 5.000</td>
+        </tr>
+        <tr>
+            <th>3). </th>
+            <th>Nasi Goreng</th>
+            <td>Rp. 10.000</td>
+        </tr>
+        <tr>
+            <th>4). </th>
+            <th>Mie Ayam</th>
+            <td>Rp. 10.000</td>
+        </tr>
+        <tr>
+            <th>5). </th>
+            <th>Nasi Goreng Spesial</th>
+            <td>Rp. 15.000</td>
+        </tr>
+        <tr>
+            <th>6). </th>
+            <th>Mie Ayam Geprek</th>
+            <td>Rp. 15.000</td>
+        </tr>
 
     </table>
 
     <br>
-    <br>
-
-
-    <!-- Tabel dengan ColSpan -->
-    <h4>Contoh penggunaan colspan pada tabel</h4>
+    <p>Penggunaan Rowspan</p>
     <table border="1">
-
-        <tr><!--kolom 0-->
-            <!-- baris 0-->
+        <tr>
             <th colspan="3">Warteg Bahari</th>
         </tr>
-
-        <!-- kolom -->
-        <tr><!--kolom 1-->
-            <!-- baris 1-->
-            <!-- <th>&nbsp;</th> -->
-            <th colspan="2">Menu warteg</th>
+        <tr>
+            <th colspan="2">Menu Makanan</th>
             <th>Harga</th>
         </tr>
-
-        <tr><!--kolom 2-->
-            <!-- baris 2-->
-            <th>1.</th>
-            <th>Paket Telor Dadar</th>
-            <th>Rp. 10.000</th>
+        <tr>
+            <th>1). </th>
+            <th>Nasi</th>
+            <td>Rp. 3.000</td>
         </tr>
-
-        <tr><!--kolom 3-->
-            <!-- baris 3-->
-            <th>2.</th>
-            <th>Paket Nasi Padang Sederhana</th>
-            <th>Rp. 10.000</th>
+        <tr>
+            <th>2). </th>
+            <th>Aqua Saset</th>
+            <td>Rp. 5.000</td>
         </tr>
-
-        <tr><!--kolom 3-->
-            <!-- baris 3-->
-            <th>2.</th>
-            <th>Paket Nasi Padang Premium</th>
-            <th>Rp. 10.000.000</th>
+        <tr>
+            <th>3). </th>
+            <th>Nasi Goreng</th>
+            <td rowspan="2">Rp. 10.000</td>
         </tr>
-
-
-    </table>
-
-    <br>
-    <br>
-
-
-    <!-- Tabel dengan RowSpan -->
-    <h4>Contoh penggunaan rowspan pada tabel</h4>
-    <table border="1">
-
-        <tr><!--kolom 0-->
-            <!-- baris 0-->
-            <th colspan="3">Warteg Bahari</th>
+        <tr>
+            <th>4). </th>
+            <th>Mie Ayam</th>
         </tr>
-
-        <!-- kolom -->
-        <tr><!--kolom 1-->
-            <!-- baris 1-->
-            <!-- <th>&nbsp;</th> -->
-            <th colspan="2">Menu warteg</th>
-            <th>Harga</th>
+        <tr>
+            <th>5). </th>
+            <th>Nasi Goreng Spesial</th>
+            <td rowspan="2">Rp. 15.000</td>
         </tr>
-
-        <tr><!--kolom 2-->
-            <!-- baris 2-->
-            <th>1.</th>
-            <th>Paket Telor Dadar</th>
-            <th rowspan="2">Rp. 10.000</th>
+        <tr>
+            <th>6). </th>
+            <th>Mie Ayam Geprek</th>
         </tr>
-
-        <tr><!--kolom 3-->
-            <!-- baris 3-->
-            <th>2.</th>
-            <th>Paket Nasi Padang Sederhana</th>
-        </tr>
-
-        <tr><!--kolom 3-->
-            <!-- baris 3-->
-            <th>2.</th>
-            <th>Paket Nasi Padang Premium</th>
-            <th>Rp. 10.000.000</th>
-        </tr>
-
 
     </table>
 
