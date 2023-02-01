@@ -1,1 +1,1 @@
-# SimpleBlog
+# Basic HTML
