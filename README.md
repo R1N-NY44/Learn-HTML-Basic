@@ -1,2 +1,2 @@
 # Basic HTML
-Visit web at https://r1n-ny44.github.io/htmlBasic/
+https://r1n-ny44.github.io/Learn-HTML-Basic/
